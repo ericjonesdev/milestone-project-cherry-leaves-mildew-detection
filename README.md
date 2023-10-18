@@ -66,7 +66,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
+* We suspect that infected cherry leaves, containing powdery mildew, contrast starkly from non-infected leave specimines.
+  * An average image study can help to investigate it.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
