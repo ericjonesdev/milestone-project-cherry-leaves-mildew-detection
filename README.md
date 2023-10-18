@@ -98,7 +98,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
 
-
 ## Main Data Analysis and Machine Learning Libraries
 
 * numpy==1.19.2
@@ -113,16 +112,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 * protobuf==3.20
 * altair<5
 
-## Credits 
+## Credits
 
 * In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-### Content 
+### Content
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- TBD
 
 ### Media
 
@@ -130,4 +127,5 @@ To save time in this process, the IT team suggested an ML system that detects in
 - The images used for the gallery page were taken from this other open-source site.
 
 ## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+
+* TBD
