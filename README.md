@@ -79,14 +79,12 @@ To save time in this process, the IT team suggested an ML system that detects in
 * Model History - Accuracy and Losses
 * Model evaluation result
 
-
-  
-
-
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+* TBD
 
 ## Deployment
+
 ### Heroku
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
@@ -102,8 +100,18 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
 
+* numpy==1.19.2
+* pandas==1.1.2
+* matplotlib==3.3.1
+* seaborn==0.11.0
+* plotly==4.12.0
+* streamlit==0.85.0
+* scikit-learn==0.24.2
+* tensorflow-cpu==2.6.0
+* keras==2.6.0
+* protobuf==3.20
+* altair<5
 
 ## Credits 
 
@@ -120,8 +128,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 - The photos used on the home and sign-up page are from This Open-Source site.
 - The images used for the gallery page were taken from this other open-source site.
-
-
 
 ## Acknowledgements (optional)
 * Thank the people that provided support throughout this project.
