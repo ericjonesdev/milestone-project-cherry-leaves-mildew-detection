@@ -31,7 +31,16 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+### MildewCherryLeavesCLF
+
+* We want an ML model to predict if a cherry leaf is infected with mildew or not, based on historical image data. It is a supervised model, a 2-class, single-label, classification model.
+* Our ideal outcome is to provide the Marianne McGuineys and her team a faster and more reliable diagnostic for the detection of the fungal disease on Farmy & Foods cherry tree crops.
+* The model success metrics are
+  * Accuracy of 70% or above on the test set.
+* The model output is defined as a flag, indicating if the cherry leaf has mildew or not and the associated probability of being infected or not. The botanical staff will do the visual inspection workflow as usual and upload the picture to the App. The prediction is made on the fly (not in batches).
+* Heuristics: The current diagnostic needs an experienced staff and detailed inspection to distinguish infected and uninfected cherry leaves. A sample is collected and examined under the microscope. Visual criteria are used to detect fungal infection. It leaves room to produce inaccurate diagnostics due to human error. On top of that, some specific farming facilities with fungal detection equipment need more, trained staff and expertise and are typically understaffed.
+* The training data to fit the model come from the National Institutes of Health (NIH) Website. This dataset contains about 26+ thousand images. We have extracted a subset of 5643 images from this dataset and saved it to Kaggle dataset directory for quicker model training. 
+  * Train data - target: infected or not; features: all images
 
 
 ## Dashboard Design
