@@ -74,6 +74,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Page 4: Project Hypothesis and Validation
 
 ### Page 5: ML Performance Metrics
+
 * Label Frequencies for Train, Validation and Test Sets
 * Model History - Accuracy and Losses
 * Model evaluation result
