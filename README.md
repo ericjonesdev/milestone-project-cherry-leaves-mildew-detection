@@ -56,6 +56,29 @@ To save time in this process, the IT team suggested an ML system that detects in
   * The client is interested to have a study to visually differentiate between infected and uninfected cherry leaves.
   * The client is interested in positively identifying whether a particular cherry leaf is infected with mold or not.
 
+### Page 2: Leaf Visualizer
+
+* It will answer business requirement 1
+  * Checkbox 1 - Difference between average and variability image
+  * Checkbox 2 - Differences between average mildew and average uninfected leaves
+  * Checkbox 3 - Image Montage
+
+### Page 3: Mildew Detector
+
+* Business requirement 2 information - "The client is interested in positively identifying whether a particular cherry leaf is infected with mold or not."
+* Link to download a set of mildew-contained and uninfected laaf images for live prediction.
+* User Interface with a file uploader widget. The user should upload multiple cherry leaf images. It will display the image and a prediction statement, indicating if the leaf is infected or not with mildew and the probability associated with this statement.
+* Table with the image name and prediction results.
+* Download button to download table.
+
+### Page 4: Project Hypothesis and Validation
+
+### Page 5: ML Performance Metrics
+* Label Frequencies for Train, Validation and Test Sets
+* Model History - Accuracy and Losses
+* Model evaluation result
+
+
   
 
 
