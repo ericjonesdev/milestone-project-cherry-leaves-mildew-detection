@@ -21,7 +21,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+* Business Requirment 1: Data Visualization
+  * We will display the "mean" and "standard deviation" images for mildewed and healthy cherry leaves.
+  * We will display the difference between an average mildewed leave and an average uninfected leave.
+  * We will display an image montage for either mildewed or uninfected leaves.
 
 
 ## ML Business Case
