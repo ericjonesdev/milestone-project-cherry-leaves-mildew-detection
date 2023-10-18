@@ -10,10 +10,8 @@ The cherry plantation crop from Farmy & Foods is facing a challenge where their 
 
 To save time in this process, the IT team suggested an ML system that detects instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
-
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
-
 
 ## Hypothesis and how to validate?
 * We suspect that infected cherry leaves, containing powdery mildew, contrast starkly from non-infected leave specimines.
@@ -42,10 +40,23 @@ To save time in this process, the IT team suggested an ML system that detects in
 * The training data to fit the model come from the National Institutes of Health (NIH) Website. This dataset contains about 26+ thousand images. We have extracted a subset of 5643 images from this dataset and saved it to Kaggle dataset directory for quicker model training. 
   * Train data - target: infected or not; features: all images
 
+## Dashboard Design (Streamlit App User Interface)
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+### Page 1: Project Summary
+
+* Quick Project Summary
+  * Powdery mildew on cherry leaves is primarily caused by a group of fungi, with one common species being Podosphaera clandestina.
+  * Controlling powdery mildew often involves a combination of cultural practices, such as pruning to improve air circulation, and fungicide applications. Selecting cherry varieties with resistance to powdery mildew can also help prevent infection.
+  * Cherry powdery mildew typically infects young leaves. The exact reason for this preference is not always clear, but it may be related to the thinner cuticle on older leaves, which can provide some resistance to fungal penetration.
+  * According to Penn State University The fungus attacks leaves and twigs, producing symptoms much like powdery mildew on apples. Infected leaves curl upward.
+* Project Dataset
+  * The available dataset contains 4208 images, divided evenly, between infected and uninfected cherry leaves.
+* Addition information:
+* Business Requirements
+  * The client is interested to have a study to visually differentiate between infected and uninfected cherry leaves.
+  * The client is interested in positively identifying whether a particular cherry leaf is infected with mold or not.
+
+  
 
 
 ## Unfixed Bugs
