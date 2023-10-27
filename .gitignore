@@ -9,5 +9,5 @@ node_modules/
 cloudinary_python.txt
 inputs/cherry_mildew_dataset/cherry-leaves/test
 inputs/cherry_mildew_dataset/cherry-leaves/train
-/workspaces/milestone-project-cherry-leaves-mildew-detection/outputs/v1/cherry_mildew_detector_model.h5
+outputs/v1/cherry_mildew_detector_model.h5
 kaggle.json
