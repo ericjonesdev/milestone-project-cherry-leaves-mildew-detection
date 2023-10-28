@@ -10,27 +10,27 @@ import itertools
 import random
 
 def page_cells_visualizer_body():
-    st.write("### Cells Visualizer")
+    st.write("### Leaf Visualizer")
     st.info(
         f"* The client is interested in having a study that visually "
-        f"differentiates a parasitised from an uninfected cell.")
+        f"differentiates mildew and unaffected cherry leaves.")
     
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
       
-      avg_parasitized = plt.imread(f"outputs/{version}/avg_var_Parasitized.png")
-      avg_uninfected = plt.imread(f"outputs/{version}/avg_var_Uninfected.png")
+      avg_powdery_mildew = plt.imread(f"outputs/{version}/avg_var_powdery_mildew.png")
+      avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
       st.warning(
         f"* We notice the average and variability images did not show "
         f"patterns where we could intuitively differentiate one from another. " 
         f"However, a small difference in the colour pigment of the average images is seen for both labels.")
 
-      st.image(avg_parasitized, caption='Parasitised Cell - Average and Variability')
-      st.image(avg_uninfected, caption='Uninfected Cell - Average and Variability')
+      st.image(avg_powdery_mildew, caption='Mildew Leaf - Average and Variability')
+      st.image(avg_healthy, caption='Healthy Leaf - Average and Variability')
       st.write("---")
 
-    if st.checkbox("Differences between average parasitised and average uninfected cells"):
+    if st.checkbox("Differences between average mildewed and average healthy leaves"):
           diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
           st.warning(
@@ -40,7 +40,7 @@ def page_cells_visualizer_body():
 
     if st.checkbox("Image Montage"): 
       st.write("* To refresh the montage, click on the 'Create Montage' button")
-      my_data_dir = 'inputs/malaria_dataset/cell_images'
+      my_data_dir = 'inputs/cherry_mildew_dataset/cherry-leaves'
       labels = os.listdir(my_data_dir+ '/validation')
       label_to_display = st.selectbox(label="Select label", options=labels, index=0)
       if st.button("Create Montage"):      
