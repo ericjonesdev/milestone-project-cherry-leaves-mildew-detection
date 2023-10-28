@@ -13,7 +13,7 @@ app = MultiPage(app_name="Malaria Detector")  # Create an instance of the app
 # Add your app pages here using .add_page()
 app.add_page("Quick Project Summary", page_summary_body)
 app.add_page("Cells Visualiser", page_cells_visualizer_body)
-app.add_page("Malaria Detection", page_malaria_detector_body)
+app.add_page("Mildew Detection", page_cherry_mildew_detector_body)
 app.add_page("Project Hypothesis", page_project_hypothesis_body)
 app.add_page("ML Performance Metrics", page_ml_performance_metrics)
 
