@@ -25,5 +25,5 @@ def page_summary_body():
         f"* 1 - The client is interested in having a study to differentiate "
         f"infected and uninfected cherry leaves visually.\n"
         f"* 2 - The client is interested in telling whether a given leaf"
-        f"contains mildew or not. "
+        f" contains mildew or not. "
         )
