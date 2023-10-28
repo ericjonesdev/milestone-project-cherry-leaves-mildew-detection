@@ -13,7 +13,7 @@ def page_summary_body():
         f"Controlling powdery mildew often involves a combination of cultural" 
         f"practices, such as pruning to improve air circulation, and fungicide" 
         f"applications. Selecting cherry varieties with resistance to powdery"
-        f"mildew can also help prevent infection."
+        f"mildew can also help prevent infection.")
 
     st.write(
         f"* For additional information, please visit and **read** the "
