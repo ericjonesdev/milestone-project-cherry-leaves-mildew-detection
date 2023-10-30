@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 from tensorflow.keras.models import load_model
-from PIL import Image as pil
+from PIL import Image, PILS
 from src.data_management import load_pkl_file
 from pkg_resources import parse_version
-if parse_version(pil.__version__)>=parse_version('10.0.0'):
-    Image.ANTIALIAS=Image.LANCZOS
+#if parse_version(pil.__version__)>=parse_version('10.0.0'):
+    #Image.ANTIALIAS=Image.LANCZOS
 
 
 def plot_predictions_probabilities(pred_proba, pred_class):
