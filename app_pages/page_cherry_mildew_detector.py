@@ -25,7 +25,7 @@ def page_cherry_mildew_detector_body():
 
     images_buffer = st.file_uploader('Upload leaf samples. You may select more than one.',
                                         type=['png', 'jpg', 'jpeg'], accept_multiple_files=True)
-   '
+   
     if images_buffer is not None:
         df_report = pd.DataFrame([])
         for image in images_buffer:
