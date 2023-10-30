@@ -41,7 +41,9 @@ def resize_input_image(img, version):
     Reshape image to average image size
     """
     image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
-    img_resized = img.resize(int(image_shape[1], image_shape[0]), PIL.Image.Resampling.LANCZOS)
+    width = int(image_shape[1])
+    height = int(image_shape[0])
+    img_resized = img.resize((width, height), PIL.Image.Resampling.LANCZOS)
     my_image = np.expand_dims(img_resized, axis=0)/255
 
     return my_image
