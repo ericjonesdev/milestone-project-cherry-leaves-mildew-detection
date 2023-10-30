@@ -34,14 +34,23 @@ def plot_predictions_probabilities(pred_proba, pred_class):
 
 
 def resize_input_image(img, version):
-    """
-    Reshape image to average image size
-    """
-    image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
-    img_resized = img.resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
-    my_image = np.expand_dims(img_resized, axis=0)/255
+    # desired input shape for the model
+    image_shape = (224, 224)  
 
-    return my_image
+    # Convert img to PIL.Image instance if it's not already
+    if not isinstance(img, Image.Image):
+        img = Image.fromarray(img)
+
+    # Resize the image
+    img_resized = img.resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
+
+    img_array = np.array(img_resized)
+
+    img_normalized = img_array / 255.0
+
+    img_batch = np.expand_dims(img_normalized, axis=0)
+
+    return img_batch
 
 
 def load_model_and_predict(my_image, version):
