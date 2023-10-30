@@ -67,4 +67,4 @@ def load_model_and_predict(my_image, version):
         f"The predictive analysis indicates the sample cell is "
         f"**{pred_class.lower()}** with malaria.")
 
-    return pred_proba, pred_class
+    return float(pred_proba), pred_class
