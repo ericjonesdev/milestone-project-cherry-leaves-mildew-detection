@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 from tensorflow.keras.models import load_model
-from PIL import Image, PILS
+from PIL import Image
 from src.data_management import load_pkl_file
 from pkg_resources import parse_version
 #if parse_version(pil.__version__)>=parse_version('10.0.0'):
@@ -41,7 +41,7 @@ def resize_input_image(img, version):
     Reshape image to average image size
     """
     image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
-    img_resized = img.resize((image_shape[1], image_shape[0]), PIL.Image.Resampling.LANCZOS)
+    img_resized = img.resize((image_shape[1], image_shape[0]), Image.Resampling.LANCZOS)
     my_image = np.expand_dims(img_resized, axis=0)/255
 
     return my_image
