@@ -14,6 +14,17 @@ def page_ml_performance_metrics():
     st.image(labels_distribution, caption='Labels Distribution on Train, Validation and Test Sets')
     st.write("---")
 
+    
+    st.write("""
+    <ul style="background-color: lightblue;">
+        <li> train - powdery_mildew: 1472 images</li>
+        <li> train - healthy: 1472 images</li>
+        <li> validation - powdery_mildew: 210 images</li>
+        <li> validation - healthy: 210 images</li>
+        <li> test - powdery_mildew: 422 images</li>
+        <li> test - healthy: 422 images</li>
+    </ul>
+    """, unsafe_allow_html=True)
 
     st.write("### Model History")
     col1, col2 = st.beta_columns(2)
