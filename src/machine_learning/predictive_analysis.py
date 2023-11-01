@@ -6,8 +6,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 from src.data_management import load_pkl_file
 from pkg_resources import parse_version
-#if parse_version(pil.__version__)>=parse_version('10.0.0'):
-    #Image.ANTIALIAS=Image.LANCZOS
+from eval_model import load_and_compile_model
 
 
 def plot_predictions_probabilities(pred_proba, pred_class):
@@ -48,13 +47,18 @@ def resize_input_image(img, version):
 
     return my_image
 
+# model URL
+model_url = 'https://drive.google.com/uc?id=1jMOU1eHCgkZsEHF5_VBiPm916xVl2gqn'
+
+# Load and compile the model using the imported function
+model = load_and_compile_model(model_url)
 
 def load_model_and_predict(my_image, version):
     """
     Load and perform ML prediction over live images
     """
 
-    model = load_model(f"outputs/{version}/cherry_mildew_detector_model.h5")
+    #model = load_model(f"outputs/{version}/cherry_mildew_detector_model.h5")
 
     pred_proba = model.predict(my_image)[0, 0]
 
