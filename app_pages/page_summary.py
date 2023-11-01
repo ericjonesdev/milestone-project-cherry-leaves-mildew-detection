@@ -15,10 +15,12 @@ def page_summary_body():
         f"applications. Selecting cherry varieties with resistance to powdery"
         f"mildew can also help prevent infection.")
 
-    st.write(
-        f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/ericjonesdev/milestone-project-cherry-leaves-mildew-detection.git).")
-    
+    st.warning(
+    f"**Cherry Leaves Dataset**\n\n"
+    f"\n The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).\n"
+    f"The dataset contains 2104 healthy leaves and 2104 affected leaves. "
+    f"The images dataset has been split evenly between "
+    f" powdery mildew-infected and uninfected/health cherry leaves.")
 
     st.success(
         f"The project has 2 business requirements:\n"

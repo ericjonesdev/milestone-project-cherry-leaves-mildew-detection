@@ -15,18 +15,25 @@ def page_ml_performance_metrics():
     st.write("---")
 
     
-    st.write("""
-    <ul style="background-color: lightblue;">
-        <li> train - powdery_mildew: 1472 images</li>
-        <li> train - healthy: 1472 images</li>
-        <li> validation - powdery_mildew: 210 images</li>
-        <li> validation - healthy: 210 images</li>
-        <li> test - powdery_mildew: 422 images</li>
-        <li> test - healthy: 422 images</li>
-    </ul>
-    """, unsafe_allow_html=True)
+    st.info(
+
+        f"* Train - healthy: 1472 images\n"
+        f"* Train - powdery_mildew: 1472 images\n"
+        f"* Validation - healthy: 210 images\n"
+        f"* Validation - powdery_mildew: 210 images\n"
+        f"* Test - healthy: 422 images\n"
+        f"* Test - powdery_mildew: 422 images\n"
+    )
+    st.write("---")
 
     st.write("### Model History")
+    st.info(
+        f"The graph below provide a visual representation of the learning cycle for the ML model.\n"
+        f" The plot graphs show the loss and accuracy plots as a part of the training process.\n\n"
+        f" From these graphs it is apparent that it is a normal learning curve. The model is neither \n"
+        f" overfitting or underfitting.\n"
+    )
+
     col1, col2 = st.beta_columns(2)
     with col1: 
         model_acc = plt.imread(f"outputs/{version}/model_training_acc.png")
@@ -38,5 +45,10 @@ def page_ml_performance_metrics():
 
     st.write("### Generalised Performance on Test Set")
     st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
+
+    st.success(
+        f"**The general accuracy of ML model is 99.17%!!** "
+    )
+    load_test_evaluation(version)
     
     
