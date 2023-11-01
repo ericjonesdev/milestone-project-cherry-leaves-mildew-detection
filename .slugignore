@@ -3,11 +3,8 @@
 /test
 /spec
 *.zip
-/inputs/cheryy_mildew_dataset/cherry-leaves/train/*
-/documentation
 /inputs/cheryy_mildew_dataset/cherry-leaves/test/*
-/inputs/cheryy_mildew_dataset/cherry-leaves/healthy
-/inputs/cheryy_mildew_dataset/cherry-leaves/powdery_mildew
+inputs/cherry_mildew_dataset/cherry-leaves/train/*
 /jupyter_notebooks
 *.ipynb
 README.md
