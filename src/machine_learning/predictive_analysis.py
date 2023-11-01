@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import sys
+sys.path.append('/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
+
 from tensorflow.keras.models import load_model
 from PIL import Image
 from src.data_management import load_pkl_file
@@ -57,8 +60,6 @@ def load_model_and_predict(my_image, version):
     """
     Load and perform ML prediction over live images
     """
-
-    #model = load_model(f"outputs/{version}/cherry_mildew_detector_model.h5")
 
     pred_proba = model.predict(my_image)[0, 0]
 
