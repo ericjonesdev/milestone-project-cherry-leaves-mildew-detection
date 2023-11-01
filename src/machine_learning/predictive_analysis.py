@@ -1,15 +1,15 @@
-import streamlit as st
-import numpy as np
-import pandas as pd
-import plotly.express as px
-import sys
-sys.path.append('/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
-
-from tensorflow.keras.models import load_model
-from PIL import Image
-from src.data_management import load_pkl_file
-from pkg_resources import parse_version
 from eval_model import load_and_compile_model
+from pkg_resources import parse_version
+from src.data_management import load_pkl_file
+from PIL import Image
+from tensorflow.keras.models import load_model
+import plotly.express as px
+import pandas as pd
+import numpy as np
+import streamlit as st
+import sys
+sys.path.append(
+    '/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
 
 
 def plot_predictions_probabilities(pred_proba, pred_class):
@@ -50,11 +50,13 @@ def resize_input_image(img, version):
 
     return my_image
 
+
 # model URL
 model_url = 'https://drive.google.com/uc?id=1jMOU1eHCgkZsEHF5_VBiPm916xVl2gqn'
 
 # Load and compile the model using the imported function
 model = load_and_compile_model(model_url)
+
 
 def load_model_and_predict(my_image, version):
     """
