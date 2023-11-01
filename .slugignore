@@ -9,4 +9,5 @@
 /inputs/cheryy_mildew_dataset/cherry-leaves/healthy
 /inputs/cheryy_mildew_dataset/cherry-leaves/powdery_mildew
 /jupyter_notebooks
+*.ipynb
 README.md
