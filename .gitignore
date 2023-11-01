@@ -10,5 +10,6 @@ cloudinary_python.txt
 inputs/cherry_mildew_dataset/cherry-leaves/test
 inputs/cherry_mildew_dataset/cherry-leaves/train
 .ipynb_checkpoints/
+*.ipynb
 myenv/
 kaggle.json
