@@ -1,3 +1,6 @@
+import sys
+sys.path.append(
+    '/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
 from eval_model import load_and_compile_model
 from pkg_resources import parse_version
 from src.data_management import load_pkl_file
@@ -7,9 +10,7 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 import streamlit as st
-import sys
-sys.path.append(
-    '/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
+
 
 
 def plot_predictions_probabilities(pred_proba, pred_class):
