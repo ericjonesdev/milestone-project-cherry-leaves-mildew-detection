@@ -6,6 +6,8 @@ At its core, this application embodies the principles of supervised machine lear
 
 [View Live Project Here](https://cherry-mildew-detection-app-b96ff905e47b.herokuapp.com/)
 
+![title image](https://res.cloudinary.com/dxla1usfm/image/upload/v1698917391/Project%205/umkm3abr54rkxejapmnf.png)
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). 
 
