@@ -4,7 +4,7 @@ from keras.models import load_model
 from io import BytesIO
 from tempfile import NamedTemporaryFile
 
-def load_and_compile_model (model_url):
+def load_and_compile_model(model_url):
     """
     Load and compile the Keras model from a hosted URL.
     """
@@ -24,4 +24,4 @@ def load_and_compile_model (model_url):
     # Load the Keras model from the temporary file
     model = load_model(tmp_file_path, compile=False)
     model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
-    return model
+    return model 
