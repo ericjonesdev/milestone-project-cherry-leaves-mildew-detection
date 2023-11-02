@@ -131,8 +131,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 * Slug size management:
   * <https://stackoverflow.com/questions/68464527/heroku-compiled-slug-size-is-too-large-python>
 * Main Image:
-  * <https://ui.dev/amiresponsiv
-* >
+  * <https://ui.dev/amiresponsiv>
 
 
 
