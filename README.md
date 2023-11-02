@@ -96,7 +96,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Heroku
 
 * The App live link is: <https://cherry-mildew-detection-app-b96ff905e47b.herokuapp.com/>
-* The project was deployed to Heroku using the following steps.
+* The project was deployed to Heroku using the following steps:
 
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
@@ -119,6 +119,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 * protobuf==3.20
 * altair<5
 
+## Bugs
+
+* 
+
 ## Credits
 
 * Background info:
@@ -132,22 +136,13 @@ To save time in this process, the IT team suggested an ML system that detects in
   * <https://stackoverflow.com/questions/68464527/heroku-compiled-slug-size-is-too-large-python>
 * Main Image:
   * <https://ui.dev/amiresponsiv>
+* Choose Activation Function:
+  * <https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/>
+* Image hosting:
+  * https://console.cloudinary.com/
+* H5 model storage:
+  * <https://drive.google.com/uc?id=1jMOU1eHCgkZsEHF5_VBiPm916xVl2gqn>
 
+## Acknowledgements
 
-
-
-
-
-
-
-### Content
-
-- TBD
-
-### Media
-
-- TBD
-
-## Acknowledgements (optional)
-
-* TBD
+* I'd like to thank my mentor Precious, Neil_ci (community leader),family and friends who gave me their support during this process. It was greatly appreciated.
