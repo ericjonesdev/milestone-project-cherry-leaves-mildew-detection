@@ -1,5 +1,3 @@
-import sys
-sys.path.append('/workspaces/milestone-project-cherry-leaves-mildew-detection/jupyter_notebooks')
 from eval_model import load_and_compile_model
 from pkg_resources import parse_version
 from src.data_management import load_pkl_file
