@@ -95,8 +95,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
+* The App live link is: <https://cherry-mildew-detection-app-b96ff905e47b.herokuapp.com/>
 * The project was deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
@@ -122,8 +121,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits
 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project.
+* Background info:
+  * <https://extension.psu.edu/powdery-mildew-of-cherry-and-plum-in-home-fruit-plantings>
+* os.path.join() method:
+  * <https://www.geeksforgeeks.org/python-os-path-join-method/>
+* PIL image resize:
+  * <https://www.askpython.com/python-modules/resize-image-pillow-pil>
+  * <https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias>
+* Slug size management:
+  * <https://stackoverflow.com/questions/68464527/heroku-compiled-slug-size-is-too-large-python>
+* Main Image:
+  * <https://ui.dev/amiresponsiv
+* >
+
+
+
+
+
+
+
 
 ### Content
 
