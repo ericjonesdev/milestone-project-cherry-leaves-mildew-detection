@@ -1,5 +1,11 @@
 # Cherry Leave Mildew Detector App
 
+The "Powdery Mildew Detector" is a sophisticated application engineered for the purpose of discerning the health status of cherry leaves. It excels in its capacity to perform predictions with remarkable precision, leveraging the visual cues present in images of cherry leaves to discern between states of robust health and infection by powdery mildew.
+
+At its core, this application embodies the principles of supervised machine learning, a foundational paradigm within the realm of artificial intelligence. It operates as a single-label, binary classification model, a construct characterized by its profound ability to delineate two distinct categories. In the context of our application, this binary classifier is harnessed to elucidate the underlying state of the cherry leaves under scrutiny, making a pivotal distinction between 'healthy' and 'infected' labels. This predictive capability is the result of a meticulous training process, where the model learns from a rich dataset, ultimately becoming proficient in classifying cherry leaves with exceptional accuracy.
+
+[View Live Project Here](https://cherry-mildew-detection-app-b96ff905e47b.herokuapp.com/)
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). 
 
