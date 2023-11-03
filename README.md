@@ -9,11 +9,13 @@ At its core, this application embodies the principles of supervised machine lear
 ![title image](https://res.cloudinary.com/dxla1usfm/image/upload/v1698917391/Project%205/umkm3abr54rkxejapmnf.png)
 
 ## Dataset Content
+
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). 
 
 * The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is also concerned about supplying the market with a compromised quality product.
 
 ## Business Requirements
+
 The cherry plantation crop from Farmy & Foods is facing a serious challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is manual verification if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If there is powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
 
 To save time in this process, the IT team suggested an ML system that detects instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
@@ -22,11 +24,13 @@ To save time in this process, the IT team suggested an ML system that detects in
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 ## Hypothesis and how to validate?
+
 * We suspect that infected cherry leaves, containing powdery mildew, contrast starkly from non-infected leave specimines.
   * An average image study can help to investigate it.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
+
 * Business Requirment 1: Data Visualization
   * We will display the "mean" and "standard deviation" images for mildewed and healthy cherry leaves.
   * We will display the difference between an average mildewed leaf and an average uninfected leaf.
@@ -37,6 +41,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## ML Business Case
+
 ### MildewCherryLeavesCLF
 
 * We want an ML model to predict if a cherry leaf is infected with mildew or not, based on historical image data. It is a supervised model, a 2-class, single-label, classification model.
@@ -104,7 +109,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis and Machine Learning Libraries
 
