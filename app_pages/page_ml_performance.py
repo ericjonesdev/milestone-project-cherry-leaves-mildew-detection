@@ -47,7 +47,7 @@ def page_ml_performance_metrics():
     st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
 
     st.success(
-        f"**The general accuracy of ML model is 99.17%!!** "
+        f"**The general accuracy of ML model is 99% !!** "
     )
     load_test_evaluation(version)
     
