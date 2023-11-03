@@ -89,7 +89,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Unfixed Bugs
 
-* TBD
+* The cherry mildew detector app works as expected and, therefore, no major
+  issues or bugs are present.
 
 ## Deployment
 
@@ -121,7 +122,20 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Bugs
 
-* 
+* Model and Evaluation (eval_model.py):
+  * During the process of creating the Model and Evaluation Jupyter notebook  
+    the problem of model.h5 size came into play. It was decided to host the .H5
+    file on a remote file storage and, as such, a function called
+    load_and_compile_model. Originally a script at the head of code was created
+    that auto-generated a .py file to the Jupyter Notebooks directory. Due to
+    limitations in synchronicity between Jupyter Notebooks and Streamlit, the
+    newly-created .py file was not being recognized within the app_pages
+    directory, despite several attemps at code configuration changes. Due
+    to time constraints it was decided to manually create the eval_mdoel.py file
+    within the root directory and then the codebase worked as expected. In
+    a future iteration, investigations will be made to determine the exact
+    code/module library necessary to enable the function to auto-generate the
+    .py file in the root directory.
 
 ## Credits
 
@@ -142,6 +156,8 @@ To save time in this process, the IT team suggested an ML system that detects in
   * https://console.cloudinary.com/
 * H5 model storage:
   * <https://drive.google.com/uc?id=1jMOU1eHCgkZsEHF5_VBiPm916xVl2gqn>
+* Writefile:
+  * <https://douglatornell.github.io/2014-09-25-ubc/novice/python/06-simple_cmdline.html#:~:text=%25%25writefile%20lets%20you%20output>,a%20program%20was%20run%20with.>
 
 ## Acknowledgements
 
