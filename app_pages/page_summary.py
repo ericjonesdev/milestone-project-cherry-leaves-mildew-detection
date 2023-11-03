@@ -29,3 +29,7 @@ def page_summary_body():
         f"* 2 - The client is interested in telling whether a given leaf"
         f" contains mildew or not. "
         )
+
+    st.write(
+        f"For additional information, please visit and **read** the "
+        f"[Project README file](https://github.com/ericjonesdev/milestone-project-cherry-leaves-mildew-detection.git).")
