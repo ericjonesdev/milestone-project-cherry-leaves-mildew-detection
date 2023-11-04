@@ -163,7 +163,7 @@ To save time in this process, the IT team suggested an ML system that detects in
   * <https://drive.google.com/uc?id=1jMOU1eHCgkZsEHF5_VBiPm916xVl2gqn>
 * Writefile:
   * <https://douglatornell.github.io/2014-09-25-ubc/novice/python/06-simple_cmdline.html#:~:text=%25%25writefile%20lets%20you%20output>,a%20program%20was%20run%20with.>
-* The overal idea and structure of this project was adapted from the Malaria
+* The overall inspiration and structure of this project was adapted from the Malaria
   Detector App, originally done by Code Institute:
   * <https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/>
 
