@@ -14,6 +14,8 @@ At its core, this application embodies the principles of supervised machine lear
 
 * The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is also concerned about supplying the market with a compromised quality product.
 
+[!health cherry leaves Kaggle](https://asset.cloudinary.com/dxla1usfm/2735ed70ebfcb73373448cf69950b254)
+
 ## Business Requirements
 
 The cherry plantation crop from Farmy & Foods is facing a serious challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is manual verification if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If there is powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
