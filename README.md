@@ -14,7 +14,8 @@ At its core, this application embodies the principles of supervised machine lear
 
 * The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is also concerned about supplying the market with a compromised quality product.
 
-[!health cherry leaves Kaggle](https://asset.cloudinary.com/dxla1usfm/2735ed70ebfcb73373448cf69950b254)
+![health cherry leaves Kaggle](https://asset.cloudinary.com/dxla1usfm/2735ed70ebfcb73373448cf69950b254)
+![unhealthy cherry leaves](https://asset.cloudinary.com/dxla1usfm/2996aefb3f5a8a29245ae07c9837d6cd)
 
 ## Business Requirements
 
