@@ -58,6 +58,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design (Streamlit App User Interface)
 
+### Wireframe
+
+![Streamli App Wirefram](https://res.cloudinary.com/dxla1usfm/image/upload/v1699192463/Project%205/Cherry_Leaves_WireFrame_Image_xz2rte.png)
+
 ### Page 1: Project Summary
 
 ![Project Summary](https://res.cloudinary.com/dxla1usfm/image/upload/v1699180231/Project%205/project_Summary_yjqfxr.png)
