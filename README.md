@@ -96,6 +96,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Page 3: Mildew Detector
 
 ![Leaf Mildew Detecotr](https://res.cloudinary.com/dxla1usfm/image/upload/v1699182350/Project%205/leaf_mildew_detector_page_bltrvi.png)
+![Healthy Detection](https://res.cloudinary.com/dxla1usfm/image/upload/v1699185936/Project%205/healthy_detection_opjmgb.png)
 
 * Business requirement 2 information - "The client is interested in positively identifying whether a particular cherry leaf is infected with mold or not."
 * Link to download a set of mildew-contained and uninfected laaf images for live prediction.
