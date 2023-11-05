@@ -197,6 +197,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 * The overall inspiration and structure of this project was adapted from the Malaria
   Detector App, originally done by Code Institute:
   * <https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/>
+* Wireframe:
+  * <https://balsamiq.com/wireframes/?gad=1&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMN7IR9EAmH5WvCZzFNeatFrRQsrA_uAdcwvghTC6vIch73J1yp7k4aAjt5EALw_wcB>
 
 ## Acknowledgements
 
