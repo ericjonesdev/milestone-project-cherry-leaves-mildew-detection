@@ -100,8 +100,17 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Page 5: ML Performance Metrics
 
 * Label Frequencies for Train, Validation and Test Sets
+
+![Train, Validation, and Test](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183932/Project%205/performance_metrics_a3xgu4.png)
+![Train, Validation, and Test](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183933/Project%205/performance_metrics2_pehxbq.png)
+
 * Model History - Accuracy and Losses
+
+![Model History](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183933/Project%205/performance_metrics3_htmasz.png)
+
 * Model evaluation result
+
+![Model Evaluation Result](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183934/Project%205/performance_metrics4_glfoho.png)
 
 ## Unfixed Bugs
 
