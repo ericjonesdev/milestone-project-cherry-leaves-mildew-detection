@@ -60,6 +60,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 1: Project Summary
 
+![Project Summary](https://res.cloudinary.com/dxla1usfm/image/upload/v1699180231/Project%205/project_Summary_yjqfxr.png)
+
 * Quick Project Summary
   * Powdery mildew on cherry leaves is primarily caused by a group of fungi, with one common species being Podosphaera clandestina.
   * Controlling powdery mildew often involves a combination of cultural practices, such as pruning to improve air circulation, and fungicide applications. Selecting cherry varieties with resistance to powdery mildew can also help prevent infection.
