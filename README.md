@@ -76,6 +76,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 2: Leaf Visualizer
 
+![Leaf Visualizer](https://res.cloudinary.com/dxla1usfm/image/upload/v1699180231/Project%205/project_Summary_yjqfxr.png)
+
 * It will answer business requirement 1
   * Checkbox 1 - Difference between average and variability image
   * Checkbox 2 - Differences between average mildew and average uninfected leaves
