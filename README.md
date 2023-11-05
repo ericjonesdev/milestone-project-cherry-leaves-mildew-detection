@@ -95,6 +95,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 4: Project Hypothesis and Validation
 
+![Project Hypothesis and Validation](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183658/Project%205/Project_hypothesis_and_evaluation_qox4jn.png)
+
 ### Page 5: ML Performance Metrics
 
 * Label Frequencies for Train, Validation and Test Sets
