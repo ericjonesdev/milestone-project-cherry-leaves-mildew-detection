@@ -17,7 +17,7 @@ def page_project_hypothesis_body():
         f"  leaf.\n"
         f"* The ML model will be able to distinguish "
         f"  between a healthy cherry leaf and an infected cherry leaf "
-        f"  with at least 97% accuracy.\n"
+        f"  with at least a 70% accuracy.\n"
 
     )
 
