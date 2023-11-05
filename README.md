@@ -80,8 +80,18 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 * It will answer business requirement 1
   * Checkbox 1 - Difference between average and variability image
+
+![Average Variability](https://res.cloudinary.com/dxla1usfm/image/upload/v1699182131/Project%205/Leaf_visualizer_huunw4.png)
+
   * Checkbox 2 - Differences between average mildew and average uninfected leaves
+
+![Difference between infected and healthy leaves](https://res.cloudinary.com/dxla1usfm/image/upload/v1699184891/Project%205/difference_between_averagemildew_healthy_leaves_cpotfr.png) 
+
   * Checkbox 3 - Image Montage
+
+![Healthy Montage](https://res.cloudinary.com/dxla1usfm/image/upload/v1699185108/Project%205/healthy_montage_xo9cjw.png)
+![Mildew Montage](https://res.cloudinary.com/dxla1usfm/image/upload/v1699185169/Project%205/powdery_mildew_montage_vifliy.png)
+
 
 ### Page 3: Mildew Detector
 
