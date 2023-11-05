@@ -199,4 +199,4 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Acknowledgements
 
-* I'd like to thank my mentor Precious, Neil_ci (community leader),family and friends who gave me their support during this process. It was greatly appreciated.
+* I'd like to thank my mentor **Precious Ijege**, **Neil_ci** (community leader), Community members, **family** and friends who gave me their support during this process. It was greatly appreciated.
