@@ -145,7 +145,19 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Languages
 
-Python 3.8.18
+Python
+
+### Frameworks and Other Technologies
+
+* **Git:** - Git was used for version control by utilizing the CodeAnywhere virtual environment to commit to Git and Push to GitHub.
+
+* **GitHub:** GitHub is used as the remote repository file hosting.
+
+* **Balsamiq:** Balsamiq was used to create the wireframes for this project.
+
+* **Heroku:** Hosting provider used to deploy this site project.
+
+* **CodeAnywhere:** Virtual programming environment used to interact with the codebase.
 
 ## Main Data Analysis and Machine Learning Libraries
 
