@@ -192,11 +192,6 @@ Python
 * Heroku Stack
   * When I initially created the app on Heroku, the stack by default does not support the Python version that I was using, so I had to change the stack of my project from 22 to 20.
 
-## Unfixed Bugs
-
-* The cherry mildew detector app works as expected and, therefore, no major
-  issues or bugs are currently present.
-
 ## Credits
 
 * Background info:
