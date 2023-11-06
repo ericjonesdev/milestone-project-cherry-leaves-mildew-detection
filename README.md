@@ -161,17 +161,17 @@ Python
 
 ## Main Data Analysis and Machine Learning Libraries
 
-* numpy==1.19.2
-* pandas==1.1.2
-* matplotlib==3.3.1
-* seaborn==0.11.0
-* plotly==4.12.0
-* streamlit==0.85.0
-* scikit-learn==0.24.2
-* tensorflow-cpu==2.6.0
-* keras==2.6.0
-* protobuf==3.20
-* altair<5
+* numpy==1.19.2 - NumPy provides an efficient interface for handling numerical arrays and matrices in Python, essential for performing high-level mathematical operations that are ubiquitous in machine learning algorithms.
+* pandas==1.1.2 - Pandas is instrumental in data manipulation and analysis, offering data structures and operations for manipulating numerical tables and time series which are foundational in pre-processing for machine learning.
+* matplotlib==3.3.1 - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python, serving as a pivotal tool for data exploration and results presentation in machine learning.
+* seaborn==0.11.0 - Seaborn extends matplotlib's functionality, providing a high-level interface for drawing attractive and informative statistical graphics, which is crucial for data interpretation in machine learning.
+* plotly==4.12.0 - Plotly specializes in creating interactive, web-based graphs and dashboards, enhancing the interpretability and interactivity of machine learning model visualizations.
+* streamlit==0.85.0 - Streamlit streamlines the creation of web apps for machine learning projects, enabling rapid sharing and prototyping without the overhead of complex web development.
+* scikit-learn==0.24.2 - Scikit-learn is a versatile tool that offers a multitude of algorithms and data processing techniques, integral for implementing standard machine learning tasks such as classification, regression, and clustering.
+* tensorflow-cpu==2.6.0 - TensorFlow is a robust framework for large-scale machine learning and neural networks, optimized for performance and scalability on CPUs for computational tasks.
+* keras==2.6.0 - Keras serves as a user-friendly interface to TensorFlow, simplifying the construction and training of neural networks and accelerating the experimental cycle.
+* protobuf==3.20 - Protocol Buffers is Google's mechanism for serializing structured data, crucial for TensorFlow's efficient storage and exchange of model configurations and parameters.
+* altair<5 - Altair offers a declarative statistical visualization library designed for rendering concise and structured visualizations, which are integral to the analytical phase of machine learning workflows.
 
 ## Bugs
 
@@ -223,6 +223,8 @@ Python
   * <https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/>
 * Wireframe:
   * <https://balsamiq.com/wireframes/?gad=1&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMN7IR9EAmH5WvCZzFNeatFrRQsrA_uAdcwvghTC6vIch73J1yp7k4aAjt5EALw_wcB>
+* CodeAnywhere
+  * <https://app.codeanywhere.com/>
 
 ## Acknowledgements
 
