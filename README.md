@@ -127,11 +127,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ![Model Evaluation Result](https://res.cloudinary.com/dxla1usfm/image/upload/v1699183934/Project%205/performance_metrics4_glfoho.png)
 
-## Unfixed Bugs
-
-* The cherry mildew detector app works as expected and, therefore, no major
-  issues or bugs are present.
-
 ## Deployment
 
 ### Heroku
@@ -176,6 +171,13 @@ To save time in this process, the IT team suggested an ML system that detects in
     a future iteration, investigations will be made to determine the exact
     code/module library necessary to enable the function to auto-generate the
     .py file in the root directory.
+* Heroku Stack
+  * When I initially created the app on Heroku, the stack by default does not support the Python version that I was using, so I had to change the stack of my project from 22 to 20.
+
+## Unfixed Bugs
+
+* The cherry mildew detector app works as expected and, therefore, no major
+  issues or bugs are currently present.
 
 ## Credits
 
